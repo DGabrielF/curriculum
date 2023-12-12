@@ -4,7 +4,7 @@ import ContactItem from "../ContactItem/index.js";
 import FormationItem from "../EducationItem/index.js";
 import ExpertiseItem from "../ExpertiseItem/index.js";
 import LanguageItem from "../LanguageItem/index.js";
-import profileImage from "../../../images/image-photo.jpeg";
+import profileImage from "../../images/image-photo.jpeg";
 
 export default function MainMenu () {
   return (
