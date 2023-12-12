@@ -12,8 +12,8 @@ export default function LeftContainer () {
     content = <OtherMenu />
   }
   return (
-    <div className="left-container">
-      {content}
-    </div>
+    <>
+    {content}
+    </>  
   )
 }

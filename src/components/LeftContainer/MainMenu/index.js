@@ -4,11 +4,11 @@ import ContactItem from "../ContactItem/index.js";
 import FormationItem from "../EducationItem/index.js";
 import ExpertiseItem from "../ExpertiseItem/index.js";
 import LanguageItem from "../LanguageItem/index.js";
-import profileImage from "../../images/image-photo.jpeg";
+import profileImage from "../../../images/image-photo.jpeg";
 
 export default function MainMenu () {
   return (
-  <>
+  <div className="left-container">
     <div className="img">
       <img src={profileImage} alt=""/>
     </div>
@@ -32,6 +32,6 @@ export default function MainMenu () {
       <div className="separator white"></div>
       {data.languages.map((language, index) => <LanguageItem language={language} index={index}/>)}
     </div>
-  </>
+  </div>
   )
 }

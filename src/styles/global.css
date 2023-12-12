@@ -3,3 +3,37 @@
 body {
   width: 98vw;
 }
+/* Elementos */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul, ol, li {
+  list-style-type: none;
+}
+h1 {
+  font-size: 5vw;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 4%;
+}
+h2 {
+  font-size: 3vw;
+  color: white;
+  background: linear-gradient(90deg, #34355100 0%, #34355100 4.99%, #323b4c 5%, #323b4c 94.99%, #34355100 95%);
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2%;
+}
+h3 {
+  font-size: 3vw;
+}
+h4 {
+  font-size: 2.2vw;
+}
+h5 {
+  font-size: 1.75vw;
+}
+span, a, li {
+  font-size: 1.6vw;
+}
