@@ -1,12 +1,13 @@
 import React from "react";
-import { data } from "../../../data.js"
-import ContactItem from "../ContactItem/index.js";
-import FormationItem from "../EducationItem/index.js";
-import ExpertiseItem from "../ExpertiseItem/index.js";
-import LanguageItem from "../LanguageItem/index.js";
-import profileImage from "../../../images/image-photo.jpeg";
+import ContactItem from "./ContactItem";
+import ExpertiseItem from "./ExpertiseItem";
+import LanguageItem from "./LanguageItem";
+import EducationItem from "./EducationItem";
+import profileImage from "../../images/image-photo.jpeg";
+import { data } from "../../data";
 
-export default function MainMenu () {
+
+export default function SideContainer () {
   return (
   <div className="left-container">
     <div className="img">
@@ -20,7 +21,7 @@ export default function MainMenu () {
     <div className="section education">
       <h3>Educação</h3>
       <div className="separator white"></div>
-      {data.education.map((formation, index) => <FormationItem formation={formation} index={index}/>)}
+      {data.education.map((formation, index) => <EducationItem formation={formation} index={index}/>)}
     </div>
     <div className="section expertise">
       <h3>Competências</h3>
