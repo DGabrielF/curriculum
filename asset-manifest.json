@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/curriculum/static/css/main.ba6defdb.css",
-    "main.js": "/curriculum/static/js/main.2f49c5f3.js",
+    "main.css": "/curriculum/static/css/main.fd662145.css",
+    "main.js": "/curriculum/static/js/main.d718ef50.js",
+    "static/media/brain.jpg": "/curriculum/static/media/brain.59484f93859b4fc5f2c6.jpg",
+    "static/media/pianoSimulator.png": "/curriculum/static/media/pianoSimulator.6bb6eab941f45b11c3b0.png",
     "static/media/image-photo.jpeg": "/curriculum/static/media/image-photo.0ebe42489db11865919a.jpeg",
+    "static/media/pokeCardGame.jpg": "/curriculum/static/media/pokeCardGame.40da3b33a10ae62d6ab7.jpg",
+    "static/media/wreckItRalph.png": "/curriculum/static/media/wreckItRalph.63812023697ef85e26d3.png",
     "index.html": "/curriculum/index.html",
-    "main.ba6defdb.css.map": "/curriculum/static/css/main.ba6defdb.css.map",
-    "main.2f49c5f3.js.map": "/curriculum/static/js/main.2f49c5f3.js.map"
+    "main.fd662145.css.map": "/curriculum/static/css/main.fd662145.css.map",
+    "main.d718ef50.js.map": "/curriculum/static/js/main.d718ef50.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba6defdb.css",
-    "static/js/main.2f49c5f3.js"
+    "static/css/main.fd662145.css",
+    "static/js/main.d718ef50.js"
   ]
 }
