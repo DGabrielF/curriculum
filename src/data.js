@@ -1,5 +1,7 @@
 export const data = {
   nome: "Danilo Gabriel Fagundes de Oliveira Ferreira",
+  profession: "engenheiro químico",
+  aboutMe: "Focado e instigado por desafios, encontrar uma forma de tornar processos, ferramentas, procedimentos e pessoas melhores é o meu 'PORQUÊ'. Engenheiro com experiência em programação (Python, JavaScript, HTML, CSS, Git, React, Tailwind, Firebase e SQL).",
   education: [
     {
       title: "Bacharel em Engenharia Química",
