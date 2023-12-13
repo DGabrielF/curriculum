@@ -3,7 +3,7 @@ import { data } from "../../data"
 import ExperienceItem from "./ExperienceItem";
 import Certificate from "./Certificate";
 
-export default function Curriculum() {
+export default function Curriculum({setPage}) {
   return (
     <>
       <div className="name">
@@ -11,17 +11,17 @@ export default function Curriculum() {
         <h2>Engenheiro Químico</h2>
       </div>
       <div className="section about-me">
-        <h3>Sobre mim</h3>
+        <h3 onClick={e => setPage("aboutMe")}>Sobre mim</h3>
         <div className="separator black"></div>
         <span>{data.aboutMe}</span>
       </div>
       <div className="section experience">
-        <h3>Experiência</h3>
+        <h3 onClick={e => setPage("experience")}>Experiência</h3>
         <div className="separator black"></div>
         {data.experiences.map((experience, index) => <ExperienceItem experience={experience} indexx={index}/>)}
       </div>
       <div className="section courses">
-        <h3>Certificados</h3>
+        <h3 onClick={e => setPage("courses")}>Certificados</h3>
         <div className="separator black"></div>
         <div className="certificates">
           {data.certifications.sort((a, b) => b.concludedIn - a.concludedIn).map((course, index) => (index<5)?<Certificate course={course} index={index}/>:<></>)}

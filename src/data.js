@@ -484,5 +484,31 @@ export const data = {
         },
       ],
     },
+  ],
+  applications: [
+    {
+      index: 0,
+      id: "pokeCardGame",
+      name: "Poké Card Game",
+      link: "https://dgabrielf.github.io/pokemon-card-game/"
+    },
+    {
+      index: 1,
+      id: "pianoSimulator",
+      name: "Simulador de Piano",
+      link: "https://dgabrielf.github.io/piano-simulator/"
+    },
+    {
+      index: 2,
+      id: "wreckItRalph",
+      name: "Detona Ralph",
+      link: "https://dgabrielf.github.io/wreck-it-ralph/"
+    },
+    {
+      index: 3,
+      id: "memoryGame",
+      name: "Jogo da Memória",
+      link: "https://dgabrielf.github.io/memory-game/"
+    }
   ]
 }

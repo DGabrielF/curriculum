@@ -1,18 +1,30 @@
 import { useState } from "react";
 import SideContainer from "./components/SideContainer";
-import RightContainer from "./components/RightContainer";
 import Menu from "./components/Menu";
 import "./styles/global.css"
 import Curriculum from "./components/Curriculum";
+import Expertise from "./components/Expertise"
+import Certifications from "./components/Certifications"
+import Experience from "./components/Experience";
+import AboutMe from "./components/AboutMe";
 
 export default function App() {
-  const [page, setPage] = useState({id:0, name:"curriculum", content: <Curriculum />});
+  const [page, setPage] = useState("curriculum");
+  const pages = {
+    curriculum: {name: "Curriculo", page: <Curriculum setPage={setPage} />},
+    expertise: {name: "Competências", page: <Expertise setPage={setPage} />},
+    aboutMe: {name: "Sobre Mim", page: <AboutMe />},
+    experience: {name: "Experiências", page: <Experience />},
+    courses: {name: "Cursos", page: <Certifications />},
+  }
 
   return (
     <div className="container">
-      {page.name==="curriculum"?<SideContainer />:<></>} 
-      <RightContainer page={page}/>
-      {page.name==="curriculum"?<></>:<Menu />}
+      {page==="curriculum"?<SideContainer setPage={setPage}/>:<></>} 
+      <div className="right-container">
+      {pages[page].page}
+    </div>
+      {page==="curriculum"?<></>:<Menu pageSelected={page} pages={pages} setPage={setPage}/>}
     </div>
   );
 }

@@ -1,23 +1,15 @@
 import React from "react";
 
-export default function MainMenu () {
+export default function MainMenu ({pageSelected, pages, setPage}) {
   return (
   <div className="menu">
-    <button className="left-container-button curriculum">
-      Currículo
-    </button>
-    <button className="left-container-button cabout-me">
-      Sobre Mim
-    </button>
-    <button className="left-container-button cexperiences">
-      Experiências
-    </button>
-    <button className="left-container-button ccourses">
-      Cursos
-    </button>
-    <button className="left-container-button chobbies">
-      Hobbies
-    </button>
+    {Object.keys(pages).map((page) => (
+      (page!==pageSelected)?
+      <button className="left-container-button" onClick={e => setPage(page)}>
+        {pages[page].name}
+      </button>:
+      <></>
+    ))}
   </div>
   )
 }

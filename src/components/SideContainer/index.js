@@ -1,13 +1,12 @@
 import React from "react";
+import { data } from "../../data";
 import ContactItem from "./ContactItem";
 import ExpertiseItem from "./ExpertiseItem";
 import LanguageItem from "./LanguageItem";
 import EducationItem from "./EducationItem";
 import profileImage from "../../images/image-photo.jpeg";
-import { data } from "../../data";
 
-
-export default function SideContainer () {
+export default function SideContainer ({setPage}) {
   return (
   <div className="left-container">
     <div className="img">
@@ -24,7 +23,7 @@ export default function SideContainer () {
       {data.education.map((formation, index) => <EducationItem formation={formation} index={index}/>)}
     </div>
     <div className="section expertise">
-      <h3>Competências</h3>
+      <h3 onClick={e => setPage("expertise")}>Competências</h3>
       <div className="separator white"></div>
       {data.skills.map((skill, index) => <ExpertiseItem skill={skill} index={index}/>)}
     </div>
