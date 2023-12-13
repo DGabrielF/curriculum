@@ -175,16 +175,34 @@ img {
   h2 {
     font-size: 6vw;
   }
+  h3 {
+    font-size: 6vw;
+  }
+  h4, button {
+    font-size: 4.2vw;
+  }
+  h5 {
+    font-size: 3.7vw;
+  }
+  span, a, li {
+    font-size: 3.5vw;
+  }
+
   .menu {
     flex-direction: row;
     min-width: 100%;
     min-height: 0;
-
   }
   .left-container-button {
     writing-mode: horizontal-tb;
     transform: rotate(0deg);
     transform-origin: center;
     white-space: nowrap;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1140px) {
+  span, a, li {
+    font-size: 2vw;
   }
 }
