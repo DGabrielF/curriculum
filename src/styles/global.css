@@ -57,7 +57,7 @@ img {
 /* Classes */
 .container {
   padding: 2rem 1.5rem;
-  min-height: 1027px;
+  min-height: 100vh;
   display: flex;
   justify-content: space-evenly;
   gap: 1.2rem;
@@ -178,6 +178,7 @@ img {
   flex-direction: row;
 }
 .caroussel button {
+  padding: 0;
   color: #323b4c;
   height: 100%;
 }
@@ -213,8 +214,8 @@ img {
   justify-content: space-between;
 }
 .card-image {
-  width: 20vw;
-  height: 20vw;
+  width: 19vw;
+  height: 19vw;
   border: 2px solid black;
   display: flex;
   justify-content: center; 
@@ -236,6 +237,8 @@ img {
   .container {
     display: flex;
     flex-direction: column-reverse;
+    justify-content: start;
+    gap: 2vw;
   }
   .left-container {
     min-width: 100%;

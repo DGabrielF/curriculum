@@ -489,7 +489,7 @@ export const data = {
     {
       index: 0,
       id: "pokeCardGame",
-      name: "Poké Card Game",
+      name: "PokéCard Game",
       link: "https://dgabrielf.github.io/pokemon-card-game/"
     },
     {

@@ -19,7 +19,7 @@ export default function Experience () {
             <h4>Projetos:</h4>
             <div className="section">
               {experience.developedProjects.map((project, id) => (
-                <div key={id}>
+                <div key={id} className="section">
                   <h5 >{project.name}</h5>
                   <h5>Objetivos:</h5>
                   {project.goals.map((goal, i) => (
