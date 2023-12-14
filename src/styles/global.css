@@ -27,6 +27,9 @@ h2 {
 }
 h3 {
   font-size: 3vw;
+  display: flex;
+  align-items: center;
+  gap: 2vw;
 }
 h4 {
   font-size: 2.2vw;
@@ -39,7 +42,7 @@ span, a, li {
 }
 button {
   font-size: 2.2vw;
-  color: aliceblue;
+  color: #f0f8ff;
   text-transform: uppercase;
   padding: .3rem;
   background-color: transparent;
@@ -104,7 +107,7 @@ img {
 .right-container {
   color: #323b4c;
   width: 95%;
-  min-height: 93vh;
+  min-height: 92vh;
   text-align: justify;
   display: flex;
   flex-direction: column;
@@ -134,7 +137,6 @@ img {
   width: 100%;
   height: .25rem;
 }
-
 .menu {
   width: 5%;
   min-width: 5rem;
@@ -151,15 +153,18 @@ img {
   gap: .8rem;
 }
 .left-container-button {
+  padding: 2vw 1vw;
   font-size: 2vw;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   transform-origin: center;
   white-space: nowrap;
+  border: .5vw solid #ffffff80;
+  border-radius: 1.2vw;
 }
 .page {
   width: 100%;
-  height: 87vh;
+  height: 92vh;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -232,6 +237,9 @@ img {
   border-radius: 50%;
   object-fit: cover;
 }
+.clickable-mark {
+  width: 2.5vw;
+}
 
 @media screen and (max-width: 768px) {
   .container {
@@ -247,6 +255,9 @@ img {
   .right-container {
     min-width: 100%;
     min-height: 0;
+  }
+  .page {
+    height: 90vh;
   }
   h1 {
     font-size: 8vw;
@@ -274,11 +285,14 @@ img {
 
   }
   .left-container-button {
+    padding: 1vw 2vw;
     font-size: 2.3vw;
     writing-mode: horizontal-tb;
     transform: rotate(0deg);
     transform-origin: center;
     white-space: nowrap;
+    border: .5vw solid #ffffff80;
+    border-radius: 1.2vw;
   }
 }
 
