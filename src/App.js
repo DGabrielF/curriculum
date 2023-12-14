@@ -21,10 +21,10 @@ export default function App() {
   return (
     <div className="container">
       {page==="curriculum"?<SideContainer setPage={setPage}/>:<></>} 
-      <div className="right-container">
-      {pages[page].page}
-    </div>
-      {page==="curriculum"?<></>:<Menu pageSelected={page} pages={pages} setPage={setPage}/>}
+      <div className={page==="curriculum"?"right-container":"right-container-row"}>
+        {page==="curriculum"?<></>:<Menu pageSelected={page} pages={pages} setPage={setPage}/>}
+        {pages[page].page}
+      </div>
     </div>
   );
 }

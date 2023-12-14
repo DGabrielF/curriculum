@@ -57,11 +57,26 @@ img {
   border-radius: 100%;
   border: .5rem solid #323b4c;
 }
+::-webkit-scrollbar {
+  width: .65vw;
+}
+::-webkit-scrollbar-track {
+  background-color: #323b4c30;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #323b4c30;
+  border-radius: 18px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #323b4c80;
+
+}
 /* Classes */
 .container {
-  padding: 2rem 1.5rem;
+  padding: 2rem 1.3rem 2rem 1.5rem;
   min-height: 100vh;
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
   gap: 1.2rem;
   overflow: hidden;
@@ -116,6 +131,17 @@ img {
   overflow: hidden;
   gap: .8rem;
 }
+.right-container-row {
+  color: #323b4c;
+  width: 95%;
+  min-height: 92vh;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  gap: .8rem;
+}
 .right-container .section {
   margin-top: 1vh;
   width: 100%;
@@ -138,6 +164,7 @@ img {
   height: .25rem;
 }
 .menu {
+  padding: 1vw 0;
   width: 5%;
   min-width: 5rem;
   max-width: 40rem;
@@ -150,30 +177,34 @@ img {
   align-items: center;
   justify-content: space-around;
   overflow: hidden;
-  gap: .8rem;
+  gap: 1vw;
 }
 .left-container-button {
-  padding: 2vw 1vw;
-  font-size: 2vw;
+  padding: 1vw .5vw;
+  font-size: 1.35vw;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   transform-origin: center;
   white-space: nowrap;
   border: .5vw solid #ffffff80;
   border-radius: 1.2vw;
+  flex: 1;
 }
 .page {
   width: 100%;
   height: 92vh;
+  text-align: start;
   display: flex;
   flex-direction: column;
   justify-content: start;
   gap: 2vh;
 }
 .page-content {
-  padding: .5%;
+  padding: .75% .5% .5% 1.5%;
   height: 100%;
   overflow-y: auto;
+  background-color: #323b4c10;
+  border-radius: 1.2vw;
 }
 .caroussel {
   width: 100%;
@@ -191,6 +222,7 @@ img {
   width: 100%;
   padding: 2% 0 2% 0;
   background: linear-gradient(#323b4c10, #323b4c30, #323b4c10);
+  border: .3vw solid #323b4c50;
   border-radius: 1.2vw;
   text-align: center;
   display: flex;
@@ -204,12 +236,17 @@ img {
   text-align: center;
   padding: 2% 0 2% 0;
   background: linear-gradient(#323b4c10, #323b4c30, #323b4c10);
+  border: .3vw solid #323b4c50;
   border-radius: 1.2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
 }
 .app-card {
   padding: 1vw;
-  border: 2px solid black;
   background: linear-gradient(#323b4c10, #323b4c30, #323b4c10);
+  border: .3vw solid #323b4c50;
   border-radius: 1.2vw;
   width: 21vw;
   height: 32vw;
@@ -294,6 +331,7 @@ img {
     border: .5vw solid #ffffff80;
     border-radius: 1.2vw;
   }
+  .right-container-row {flex-direction: column;}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1140px) {
