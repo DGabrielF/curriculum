@@ -509,6 +509,12 @@ export const data = {
       id: "memoryGame",
       name: "Jogo da Memória",
       link: "https://dgabrielf.github.io/memory-game/"
+    },
+    {
+      index: 4,
+      id: "mathHelper",
+      name: "Math Helper",
+      link: "https://dgabriel.github.io/math-helper/"
     }
   ]
 }
