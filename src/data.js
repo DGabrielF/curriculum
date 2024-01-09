@@ -514,7 +514,7 @@ export const data = {
       index: 4,
       id: "mathHelper",
       name: "Math Helper",
-      link: "https://dgabriel.github.io/math-helper/"
+      link: "https://dgabrielf.github.io/math-helper/"
     }
   ]
 }
