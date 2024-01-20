@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/curriculum/static/css/main.6319d843.css",
-    "main.js": "/curriculum/static/js/main.fe557049.js",
+    "main.js": "/curriculum/static/js/main.e5f6d2d8.js",
     "static/media/brain.jpg": "/curriculum/static/media/brain.59484f93859b4fc5f2c6.jpg",
     "static/media/abaco.jpg": "/curriculum/static/media/abaco.62f056984f6b1e5438e7.jpg",
     "static/media/pianoSimulator.png": "/curriculum/static/media/pianoSimulator.6bb6eab941f45b11c3b0.png",
     "static/media/image-photo.jpeg": "/curriculum/static/media/image-photo.0ebe42489db11865919a.jpeg",
     "static/media/pokeCardGame.jpg": "/curriculum/static/media/pokeCardGame.40da3b33a10ae62d6ab7.jpg",
     "static/media/wreckItRalph.png": "/curriculum/static/media/wreckItRalph.63812023697ef85e26d3.png",
+    "static/media/pokedex-color.svg": "/curriculum/static/media/pokedex-color.31e1446c8e9d2fe8b25f47888a6009b0.svg",
     "index.html": "/curriculum/index.html",
     "main.6319d843.css.map": "/curriculum/static/css/main.6319d843.css.map",
-    "main.fe557049.js.map": "/curriculum/static/js/main.fe557049.js.map"
+    "main.e5f6d2d8.js.map": "/curriculum/static/js/main.e5f6d2d8.js.map"
   },
   "entrypoints": [
     "static/css/main.6319d843.css",
-    "static/js/main.fe557049.js"
+    "static/js/main.e5f6d2d8.js"
   ]
 }
