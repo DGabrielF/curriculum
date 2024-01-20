@@ -7,6 +7,7 @@ import pianoImage from "../../images/pianoSimulator.png";
 import ralphImage from "../../images/wreckItRalph.png";
 import memoryImage from "../../images/brain.jpg";
 import mathImage from "../../images/abaco.jpg";
+import pokedexImage from "../../images/pokedex-color.svg"
 
 export default function AboutMe () {
   const images = {
@@ -15,6 +16,7 @@ export default function AboutMe () {
     wreckItRalph: ralphImage,
     memoryGame: memoryImage,
     mathHelper: mathImage, 
+    pokedex: pokedexImage, 
   };
 
   const [currentIndex, setCurrentIndex] = useState(0);

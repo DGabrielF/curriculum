@@ -515,6 +515,12 @@ export const data = {
       id: "mathHelper",
       name: "Math Helper",
       link: "https://dgabrielf.github.io/math-helper/"
+    },
+    {
+      index: 5,
+      id: "pokedex",
+      name: "Pokedex",
+      link: "https://dgabrielf.github.io/pokedex/"
     }
   ]
 }
