@@ -1,6 +1,6 @@
 export const data = {
   nome: "Danilo Gabriel Fagundes de Oliveira Ferreira",
-  profession: "engenheiro químico",
+  profession: "Desenvolvedor Frontend",
   aboutMe: "Focado e instigado por desafios, encontrar uma forma de tornar processos, ferramentas, procedimentos e pessoas melhores é o meu 'PORQUÊ'. Engenheiro com experiência em programação (Python, JavaScript, HTML, CSS, Git, React, Tailwind, Firebase e SQL).",
   education: [
     {
@@ -490,37 +490,66 @@ export const data = {
       index: 0,
       id: "pokeCardGame",
       name: "PokéCard Game",
-      link: "https://dgabrielf.github.io/pokemon-card-game/"
+      link: "https://dgabrielf.github.io/pokemon-card-game/",
     },
     {
       index: 1,
       id: "pianoSimulator",
       name: "Simulador de Piano",
-      link: "https://dgabrielf.github.io/piano-simulator/"
+      link: "https://dgabrielf.github.io/piano-simulator/",
     },
     {
       index: 2,
       id: "wreckItRalph",
       name: "Detona Ralph",
-      link: "https://dgabrielf.github.io/wreck-it-ralph/"
+      link: "https://dgabrielf.github.io/wreck-it-ralph/",
     },
     {
       index: 3,
       id: "memoryGame",
       name: "Jogo da Memória",
-      link: "https://dgabrielf.github.io/memory-game/"
+      link: "https://dgabrielf.github.io/memory-game/",
     },
     {
       index: 4,
       id: "mathHelper",
       name: "Math Helper",
-      link: "https://dgabrielf.github.io/math-helper/"
+      link: "https://dgabrielf.github.io/math-helper/",
     },
     {
       index: 5,
       id: "pokedex",
       name: "Pokedex",
-      link: "https://dgabrielf.github.io/pokedex/"
+      link: "https://dgabrielf.github.io/pokedex/",
+    }
+  ],
+  challenges: [
+    {
+      index: 0,
+      id: "JsCep",
+      name: "Formulário de endereço com CEP em JavaScript",
+      description: "O projeto consiste em criar uma interface com auto preencimento de campos do endereço com base no cep digitado.",
+      githubLink: "https://github.com/DGabrielF/js-cep-challenge",
+      siteLink: "https://dgabrielf.github.io/js-cep-challenge/",
+      technologies: ["HTML", "CSS", "JavaScript", "API"]
+    },
+    {
+      index: 1,
+      id: "JsPhotoGrid",
+      name: "Disposição responsiva de itens em Grid",
+      description: "Este é um projeto simples desenvolvido para demonstrar o uso do Display Grid, técnicas de responsividade e boas práticas de organização de projetos utilizando JavaScript, HTML e CSS.",
+      githubLink: "https://github.com/DGabrielF/js-photo-grid-challenge",
+      siteLink: "https://dgabrielf.github.io/js-photo-grid-challenge/",
+      technologies: ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      index: 2,
+      id: "JsCurrencyExchange",
+      name: "Consulta de compra e venda de moedas",
+      description: "O projeto consiste em consumir dados de uma API (awesomeapi.com.br), para criar uma apllicação de conversão de moedas.",
+      githubLink: "https://github.com/DGabrielF/js-currency-challenge",
+      siteLink: "https://dgabrielf.github.io/js-currency-challenge/",
+      technologies: ["HTML", "CSS", "JavaScript", "API"]
     }
   ]
 }
