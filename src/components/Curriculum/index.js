@@ -8,7 +8,7 @@ export default function Curriculum({setPage}) {
     <>
       <div className="name">
         <h1>Danilo Ferreira</h1>
-        <h2>Engenheiro Químico</h2>
+        <h2>Desenvolvedor</h2>
       </div>
       <div className="section about-me">
         <h3 onClick={e => setPage("aboutMe")}>
